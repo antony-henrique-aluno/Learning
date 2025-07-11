@@ -17,6 +17,34 @@ img {
     width: 125px;
 }
 
+.cabecalho{
+    min-width: 100dvw;
+    height: 100%;
+    background: var(--cor01);
+}
+
+.cabecalho .nav-links{
+    background: var(--cor02);
+    border: 2px solid black;
+}
+
+.cabecalho .nav-links ul{
+    list-style: none;
+    margin-left: 12px
+}
+
+.cabecalho .nav-links ul li{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    margin: 12px 0 12px 12px;
+    background: var(--cor01);
+}
+
+.cabecalho .nav-links ul li:first-child{
+    margin-left: 0;
+}
+
 #container-main {
     min-width: 100dvw;
     min-height: 100dvh;
@@ -29,6 +57,7 @@ img {
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .space-btn {
@@ -42,7 +71,7 @@ img {
     display: inline-block;
     width: 125px;
     height: 50px;
-    background: rgb(255, 58, 58);
+    background: var(--cor02);
     border: solid black 2px;
     border-radius: 8px;
 }
