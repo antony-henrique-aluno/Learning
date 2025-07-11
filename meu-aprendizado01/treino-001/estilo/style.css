@@ -1,7 +1,7 @@
 :root {
     --cor01: #1F89E0;
     --cor02: #003665;
-    --cor03: #B1DCFF; 
+    --cor03: #B1DCFF;
     --cor04: #00233D;
 }
 
@@ -17,31 +17,32 @@ img {
     width: 125px;
 }
 
-.cabecalho{
+.cabecalho {
     min-width: 100dvw;
     height: 100%;
     background: var(--cor01);
 }
 
-.cabecalho .nav-links{
+.cabecalho .nav-links {
     background: var(--cor02);
     border: 2px solid black;
 }
 
-.cabecalho .nav-links ul{
+.cabecalho .nav-links ul {
     list-style: none;
     margin-left: 12px
 }
 
-.cabecalho .nav-links ul li{
+.cabecalho .nav-links ul li {
     display: inline-block;
     width: 100px;
-    height: 50px;
+    height: 35px;
     margin: 12px 0 12px 12px;
     background: var(--cor01);
+    border-radius: 8px;
 }
 
-.cabecalho .nav-links ul li:first-child{
+.cabecalho .nav-links ul li:first-child {
     margin-left: 0;
 }
 
