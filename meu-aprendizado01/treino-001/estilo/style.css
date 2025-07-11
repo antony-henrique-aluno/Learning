@@ -1,18 +1,22 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-img{
+img {
     width: 125px;
 }
 
-#container-main{
+#container-main {
     min-width: 100dvw;
     min-height: 100dvh;
 }
 
-.section01{
-    background-image: linear-gradient(to bottom, #0f0f0f0, #00000085), url(../src/background01.jpg);
+.section01 {
+    background-color: black; /* fallback caso a img não renderize */
+    background-image: linear-gradient(to bottom, #00000085, #00000065), url(../src/background01.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
 }
