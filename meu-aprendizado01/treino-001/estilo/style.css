@@ -62,7 +62,7 @@ img {
     width: 100%;
     height: 100%;
     text-align: center;
-    line-height: 40px;
+    line-height: 42px;
     font-weight: bold;
     color: white;
     transition: 500ms;
@@ -126,6 +126,5 @@ img {
 .section01 .info-personagem .nome-personagem{
     text-align: center;
     font-size: 2em;
-    
     padding: 12px 0 12px 0;
 }
