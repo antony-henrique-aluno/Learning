@@ -27,6 +27,7 @@ img {
 
 .cabecalho .nav-links {
     background: var(--cor02);
+    position: sticky;
 }
 
 .cabecalho .nav-links ul {
