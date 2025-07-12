@@ -80,13 +80,13 @@ img {
 .section01 {
     background-color: black;
     /* fallback caso a img não renderize */
-    background-image: linear-gradient(to bottom, #00000050, #00000075), url(../src/background01.jpg);
+    background-image: linear-gradient(to bottom, #00000025, #00000075), url(../src/background01.jpg);
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: inset 0px 0px 25px black,
-    inset 0px 0px 25px #00000045;
+        inset 0px 0px 25px #00000045;
 }
 
 .space-btn {
