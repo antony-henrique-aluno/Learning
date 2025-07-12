@@ -138,6 +138,14 @@ img {
 
 .test{
     border: 2px solid red;
+    text-align: center;
+}
+
+.test .test2{
+    border: 2px solid blue;
+    width: 220px;
+    height: 180px;
+    margin: 0 auto;
 }
 
 .test2 img{
