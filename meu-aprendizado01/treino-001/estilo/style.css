@@ -148,8 +148,7 @@ img {
     display: inline-block;
     width: 220px;
     height: 150px;
-    margin: 12px auto;
-    margin-right: 24px;
+    margin: 24px;
     border: 2px hotpink solid;
     border-radius: 8px;
     background-image: linear-gradient(to bottom, var(--cor01), var(--cor03));
