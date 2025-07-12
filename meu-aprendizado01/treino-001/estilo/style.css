@@ -152,7 +152,6 @@ img {
     border: 2px hotpink solid;
     border-radius: 8px;
     background-image: linear-gradient(to bottom, var(--cor01), var(--cor03));
-    /* escode oq vaza do container */
     overflow: visible;
 }
 
@@ -161,5 +160,6 @@ img {
     width: 150px;
     top: -25px;
     left: -48px;
-    clip-path: inset(0px 0px 39px 0px); /* Uma boa maneira de manipular partes de imgs e divs */
+    clip-path: inset(0px 0px 39px 0px);
+    /* Uma boa maneira de manipular partes de imgs e divs */
 }
