@@ -44,6 +44,10 @@ img {
     transition: 500ms;
 }
 
+.cabecalho .nav-links ul li:first-child {
+    margin-left: 0;
+}
+
 .cabecalho .nav-links ul li:hover {
     background-color: var(--cor04);
     transform: scale(1.05);
@@ -62,13 +66,10 @@ img {
     transition: 500ms;
 }
 
-.cabecalho .nav-links ul li:hover a{
+.cabecalho .nav-links ul li:hover a {
     color: var(--cor02);
 }
 
-.cabecalho .nav-links ul li:first-child {
-    margin-left: 0;
-}
 
 #container-main {
     min-width: 100dvw;
