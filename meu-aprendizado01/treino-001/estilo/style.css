@@ -44,13 +44,13 @@ img {
     transition: 500ms;
 }
 
-.cabecalho .nav-links ul li:hover{
+.cabecalho .nav-links ul li:hover {
     background-color: var(--cor04);
     transform: scale(1.05);
 }
 
 
-.cabecalho .nav-links ul li a{
+.cabecalho .nav-links ul li a {
     text-decoration: none;
     display: block;
     width: 100%;
@@ -59,6 +59,11 @@ img {
     line-height: 40px;
     font-weight: bold;
     color: white;
+    transition: 500ms;
+}
+
+.cabecalho .nav-links ul li:hover a{
+    color: var(--cor02);
 }
 
 .cabecalho .nav-links ul li:first-child {
