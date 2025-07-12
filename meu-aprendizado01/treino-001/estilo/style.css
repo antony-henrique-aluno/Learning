@@ -85,6 +85,8 @@ img {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
+    box-shadow: inset 0px 0px 25px black,
+    inset 0px 0px 25px #00000045;
 }
 
 .space-btn {
