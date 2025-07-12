@@ -136,20 +136,16 @@ img {
     padding: 0 10px 0 4px;
 }
 
-.test{
-    border: 2px solid red;
+.box{
     text-align: center;
+    border: 2px solid red;
 }
 
-.test .test2{
-    border: 2px solid blue;
+.box .cards{
+    position: relative;
     width: 220px;
-    height: 180px;
+    height: 150px;
     margin: 0 auto;
-}
-
-.test2 img{
-    padding: 0;
-    display: block;
-    object-fit: cover;
+    border: 2px hotpink solid;
+    border-radius: 8px;
 }
