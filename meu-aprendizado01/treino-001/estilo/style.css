@@ -143,6 +143,5 @@ img {
 .test2 img{
     padding: 0;
     display: block;
-    border: 2px solid yellow!importan;
     object-fit: cover;
 }
