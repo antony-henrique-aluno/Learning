@@ -152,11 +152,12 @@ img {
     border: 2px hotpink solid;
     border-radius: 8px;
     background-image: linear-gradient(to bottom, var(--cor01), var(--cor03));
-    overflow: hidden; /* escode oq vaza do container */
+    /* escode oq vaza do container */
 }
 
 .box .cards img {
     position: absolute;
     top: 0;
     left: -25px;
+    clip-path: ;
 }
