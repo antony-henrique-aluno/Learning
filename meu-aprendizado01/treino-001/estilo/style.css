@@ -135,3 +135,14 @@ img {
     font-weight: 500;
     padding: 0 10px 0 4px;
 }
+
+.test{
+    border: 2px solid red;
+}
+
+.test2 img{
+    padding: 0;
+    display: block;
+    border: 2px solid yellow!importan;
+    object-fit: cover;
+}
