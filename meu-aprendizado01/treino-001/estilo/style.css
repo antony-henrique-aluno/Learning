@@ -128,3 +128,10 @@ img {
     font-size: 2em;
     padding: 12px 0 12px 0;
 }
+
+.section01 .info-personagem .info-diana{
+    line-height: 1.5em;
+    text-align: justify;
+    font-weight: 500;
+    padding: 0 10px 0 4px;
+}
