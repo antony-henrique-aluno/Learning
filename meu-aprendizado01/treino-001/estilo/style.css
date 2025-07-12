@@ -23,6 +23,7 @@ img {
     background: var(--cor01);
 }
 
+
 .cabecalho .nav-links {
     background: var(--cor02);
     border: 2px solid black;
