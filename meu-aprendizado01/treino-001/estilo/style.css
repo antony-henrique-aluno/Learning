@@ -136,16 +136,24 @@ img {
     padding: 0 10px 0 4px;
 }
 
-.box{
+.box {
     text-align: center;
     border: 2px solid red;
 }
 
-.box .cards{
+.box .cards {
     position: relative;
     width: 220px;
     height: 150px;
     margin: 0 auto;
     border: 2px hotpink solid;
     border-radius: 8px;
+    background-image: linear-gradient(to bottom, var(--cor01), var(--cor03));
+    overflow: hidden;
+}
+
+.box .cards img{
+    position: absolute;
+    top: 0;
+    left: -25px;
 }
