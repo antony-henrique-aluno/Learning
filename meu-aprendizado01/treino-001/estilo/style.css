@@ -147,8 +147,8 @@ img {
 .box .cards {
     position: relative;
     display: inline-block;
-    width: 250px;
-    height: 150px;
+    width: 350px;
+    height: 200px;
     margin: 24px;
     border: 2px hotpink solid;
     border-radius: 8px;
@@ -158,9 +158,9 @@ img {
 
 .box .cards img {
     position: absolute;
-    width: 150px;
+    width: 180px;
     top: -25px;
     left: -39px;
-    clip-path: inset(0px 0px 40.7px 0px);
+    clip-path: inset(0px 0px 33px 0px);
     /* Uma boa maneira de manipular partes de imgs e divs */
 }
