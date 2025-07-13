@@ -157,7 +157,7 @@ img {
     overflow: visible;
 }
 
-/* .box .cards::before{
+.box .cards::before{
     position: absolute;
     content: '';
     display: block;
@@ -167,7 +167,7 @@ img {
     width: 330px;
     height: 175px;
     border: 2px solid black;
-} */
+} 
 
 .box .cards .foto-mulher-maravilha01 {
     position: absolute;
@@ -178,14 +178,14 @@ img {
     /* Uma boa maneira de manipular partes de imgs e divs */
 }
 
-.box .cards-icons{
+.box .cards-icons {
     position: relative;
     width: 100%;
     height: 100%;
     border: 2px solid chartreuse;
 }
 
-.box .cards-icons ul{
+.box .cards-icons ul {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -194,7 +194,7 @@ img {
     list-style: none;
 }
 
-.box .cards-icons ul li{
+.box .cards-icons ul li {
     position: relative;
     display: inline-block;
     border: 2px solid black;
@@ -202,7 +202,7 @@ img {
     height: 36px;
 }
 
-.box .cards-icons .icons-social{
+.box .cards-icons .icons-social {
     width: 26px;
     height: 26px;
 }
