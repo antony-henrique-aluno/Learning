@@ -59,10 +59,11 @@ img {
 .cabecalho .nav-links ul li a {
     text-decoration: none;
     display: block;
+    font-size: 0.8em;
     width: 100%;
     height: 100%;
     text-align: center;
-    line-height: 42px;
+    line-height: 35px;
     font-weight: bold;
     color: white;
     transition: 500ms;
@@ -113,7 +114,7 @@ img {
     color: white;
     width: 100%;
     height: 100%;
-    line-height: 50px;
+    line-height: 45px;
 }
 
 /*Infos dos personagens*/
@@ -134,6 +135,7 @@ img {
     text-align: justify;
     font-weight: 500;
     padding: 0 10px 0 4px;
+    color: white;
 }
 
 .box {
@@ -159,7 +161,7 @@ img {
     position: absolute;
     width: 150px;
     top: -25px;
-    left: -48px;
-    clip-path: inset(0px 0px 39px 0px);
+    left: -39px;
+    clip-path: inset(0px 0px 40.7px 0px);
     /* Uma boa maneira de manipular partes de imgs e divs */
 }
