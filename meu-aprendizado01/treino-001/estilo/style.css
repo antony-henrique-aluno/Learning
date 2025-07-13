@@ -190,9 +190,9 @@ img {
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 70%;
-    left: 20%;
-    /* transform: translateX(-20%, -50%); */
+    top: 75%;
+    left: 30%;
+    transform: translate(-15%, -10%);
     list-style: none;
 }
 
@@ -204,18 +204,25 @@ img {
     border-radius: 8px;
     width: 36px;
     height: 36px;
+    box-shadow: 5px 5px 15px #00000090;
     background-image: linear-gradient(125deg, var(--cor01), var(--cor03));
 }
+
+.box .cards-icons ul li:hover{
+    transform: translateY(-15px) scale(1.05);
+    box-shadow: ;
+}
+
 
 .box .cards-icons ul li:first-child{
     margin-left: 0;
 }
 
-.box .cards-icons .icons-social {
+.box .cards-icons ul li .icons-social {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 26px;
-    height: 26px;
+    width: 24px;
+    height: 24px;
 }
