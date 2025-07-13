@@ -242,6 +242,8 @@ img {
     height: 24px;
 }
 
+/*section02 - Começo*/
+
 #container-main .section02 {
     background-image: linear-gradient(-45deg, var(--cor01), var(--cor04));
     text-align: center;
