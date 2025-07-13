@@ -179,12 +179,18 @@ img {
 }
 
 .box .cards-icons{
+    position: relative;
     width: 100%;
     height: 100%;
     border: 2px solid chartreuse;
 }
 
 .box .cards-icons ul{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 25%;
     list-style: none;
 }
 
