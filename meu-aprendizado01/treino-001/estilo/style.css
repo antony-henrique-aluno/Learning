@@ -156,7 +156,7 @@ img {
     overflow: visible;
 }
 
-/* .box .cards::before {
+.box .cards::before {
     position: absolute;
     content: '';
     display: block;
@@ -167,7 +167,7 @@ img {
     height: 175px;
     border: 2px solid var(--cor04);
     border-radius: 8px;
-} */
+}
 
 .box .cards .foto-mulher-maravilha01 {
     position: absolute;
@@ -202,7 +202,6 @@ img {
     left: 30%;
     transform: translate(-15%, -10%);
     list-style: none;
-    border: 3px solid black;
 }
 
 .box .cards-icons ul li {
