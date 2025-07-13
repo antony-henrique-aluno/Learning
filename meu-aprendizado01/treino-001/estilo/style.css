@@ -124,7 +124,8 @@ img {
 }
 
 .section01 .info-personagem .nome-personagem {
-    text-align: center; /* Text align center serve para alinhar tudo ao centro, comumente usado no container pai para a centralização de seus filos */
+    text-align: center;
+    /* Text align center serve para alinhar tudo ao centro, comumente usado no container pai para a centralização de seus filos */
     font-size: 2em;
     padding: 12px 0 12px 0;
 }
@@ -154,6 +155,18 @@ img {
     border-radius: 8px;
     background-image: linear-gradient(to bottom, var(--cor01), var(--cor03));
     overflow: visible;
+}
+
+.box .cards::before{
+    position: absolute;
+    content: '';
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 330px;
+    height: 175px;
+    border: 2px solid black;
 }
 
 .box .cards img {
