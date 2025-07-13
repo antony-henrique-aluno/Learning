@@ -142,7 +142,6 @@ img {
     width: 100%;
     height: 100%;
     text-align: center;
-    border: 2px solid red;
 }
 
 .box .cards {
@@ -157,7 +156,7 @@ img {
     overflow: visible;
 }
 
-.box .cards::before {
+/* .box .cards::before {
     position: absolute;
     content: '';
     display: block;
@@ -166,9 +165,9 @@ img {
     transform: translate(-50%, -50%);
     width: 330px;
     height: 175px;
-    border: 2px solid black;
+    border: 2px solid var(--cor04);
     border-radius: 8px;
-}
+} */
 
 .box .cards .foto-mulher-maravilha01 {
     position: absolute;
@@ -183,6 +182,7 @@ img {
     position: relative;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 .box .cards-icons h1 {
@@ -202,6 +202,7 @@ img {
     left: 30%;
     transform: translate(-15%, -10%);
     list-style: none;
+    border: 3px solid black;
 }
 
 .box .cards-icons ul li {
