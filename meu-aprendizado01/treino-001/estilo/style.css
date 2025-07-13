@@ -257,8 +257,14 @@ img {
     background-color: hotpink;
     border: 2px solid black;
     border-radius: 8px;
+    box-shadow: 5px 5px 15px #00000090;
     margin: 24px;
     overflow: hidden;
+    transition: 500ms;
+}
+
+#container-main .section02 .box-cards:hover{
+    transform: scale(1.1);
 }
 
 #container-main .section02 .box-cards .card-01 {
