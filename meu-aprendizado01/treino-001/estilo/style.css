@@ -157,7 +157,7 @@ img {
     overflow: visible;
 }
 
-.box .cards::before{
+.box .cards::before {
     position: absolute;
     content: '';
     display: block;
@@ -167,7 +167,7 @@ img {
     width: 330px;
     height: 175px;
     border: 2px solid black;
-} 
+}
 
 .box .cards .foto-mulher-maravilha01 {
     position: absolute;
@@ -207,17 +207,18 @@ img {
     background-image: linear-gradient(125deg, var(--cor01), var(--cor03));
 }
 
-.box .cards-icons ul li:hover{
+.box .cards-icons ul li:hover {
     transform: translateY(-15px) scale(1.05);
     box-shadow: 5px 5px 15px var(--cor01),
-    -5px -5px 15px var(--cor01),
-    0px 0px 15px var(--cor01),
-    0px 0px 15px inset var(--cor01),
-    0px 0px 15px inset var(--cor01);
+        -5px -5px 15px var(--cor01),
+        0px 0px 15px var(--cor01),
+        0px 0px 15px inset var(--cor01),
+        0px 0px 15px inset var(--cor01);
+    background-image: -125deg, var(--cor03), var(--cor01);
 }
 
 
-.box .cards-icons ul li:first-child{
+.box .cards-icons ul li:first-child {
     margin-left: 0;
 }
 
