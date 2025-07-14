@@ -362,15 +362,16 @@ img {
     height: 100%;
     list-style: none;
     top: 85%;
-    border: 2px solid black;
 }
 
 #container-main .section02 .habi-mm ul li {
     position: relative;
     width: 36px;
     height: 36px;
+    border: 2px solid black;
     border-radius: 8px;
     background-image: white;
+    margin: 0 0 0 2px;
 }
 
 #container-main .section02 .habi-mm ul li .icon-downloads{
