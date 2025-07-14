@@ -283,12 +283,12 @@ img {
     object-fit: cover;
     top: 0;
     left: 0;
-    scale(1.06)
+    scale: 1.05;
     transition: 500ms;
 }
 
 #container-main .section02 .box-cards:hover .card-01{
-    filter: blur(1px);
+    filter: blur(5px);
 }
 
 #container-main .section02 .habi-mm {
