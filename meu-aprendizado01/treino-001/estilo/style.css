@@ -81,6 +81,7 @@ img {
     min-height: 100dvh;
 }
 
+/*background de fundo -> inicio*/
 .section01 {
     background-color: black;
     /* fallback caso a img não renderize */
@@ -92,6 +93,7 @@ img {
     box-shadow: inset 0px 0px 25px black,
         inset 0px 0px 25px #00000045;
 }
+/*background de fundo -> fim*/
 
 .space-btn {
     width: 100%;
@@ -313,7 +315,7 @@ img {
     top: 100%;
 }
 
-#container-main .section02 .habi-mm:hover h2{
+#container-main .section02 .habi-mm:hover h2 {
     top: 50%;
 }
 
