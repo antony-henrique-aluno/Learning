@@ -300,11 +300,11 @@ img {
     transition: 500ms;
 }
 
-#container-main .section02 .habi-mm:hover::before{
+#container-main .section02 .habi-mm:hover::before {
     top: 0;
 }
 
-#container-main .section02 .habi-mm h2{
+#container-main .section02 .habi-mm h2 {
     position: absolute;
     text-align: start;
     font-size: 1.7em;
@@ -312,7 +312,11 @@ img {
     top: 50%;
 }
 
-
+#container-main .section02 .habi-mm h2::before{
+    position: absolute;
+    content: '';
+    
+}
 
 #container-main .section02 .habi-mm p {
     position: absolute;
