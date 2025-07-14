@@ -282,18 +282,23 @@ img {
     height: 100%;
 }
 
-#container-main .section02 .habi-mm::before{
+#container-main .section02 .habi-mm::before {
     content: '';
     display: block;
+    position: absolute;
     width: 100%;
     height: 100%;
+    top: 50%;
     background-color: black;
     opacity: .5;
+    transition: 1s;
 }
 
+#container-main .section02 .habi-mm:hover::before{
+    top: 0;
+}
 
-
-#container-main .section02 .habi-mm p{
+#container-main .section02 .habi-mm p {
     position: absolute;
     top: 65%;
     text-align: start;
