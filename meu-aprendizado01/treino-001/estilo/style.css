@@ -313,6 +313,7 @@ img {
     color: white;
     padding: 0 0 0 2px;
     top: 100%;
+    transition: 500ms;
 }
 
 #container-main .section02 .habi-mm:hover h2 {
@@ -327,11 +328,16 @@ img {
 
 #container-main .section02 .habi-mm p {
     position: absolute;
-    top: 65%;
+    top: 100%;
     text-align: justify;
     font-size: 0.7em;
     font-weight: bold;
     line-height: 1.6em;
     color: white;
     padding: 0 8px 0 2px;
+    transition: 500ms;
+}
+
+#container-main .section02 .habi-mm:hover p{
+    top: 65%;
 }
