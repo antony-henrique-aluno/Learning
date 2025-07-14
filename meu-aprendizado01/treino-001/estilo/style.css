@@ -93,6 +93,7 @@ img {
     box-shadow: inset 0px 0px 25px black,
         inset 0px 0px 25px #00000045;
 }
+
 /*background de fundo -> fim*/
 
 .space-btn {
@@ -282,6 +283,12 @@ img {
     object-fit: cover;
     top: 0;
     left: 0;
+    scale(1.06)
+    transition: 500ms;
+}
+
+#container-main .section02 .box-cards:hover .card-01{
+    filter: blur(1px);
 }
 
 #container-main .section02 .habi-mm {
@@ -338,6 +345,6 @@ img {
     transition: 500ms;
 }
 
-#container-main .section02 .habi-mm:hover p{
+#container-main .section02 .habi-mm:hover p {
     top: 65%;
 }
