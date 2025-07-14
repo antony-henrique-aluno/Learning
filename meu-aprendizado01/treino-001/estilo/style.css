@@ -183,7 +183,7 @@ img {
     /* Uma boa maneira de manipular partes de imgs e divs */
 }
 
-.box .cards .foto-mulher-maravilha02{
+.box .cards .foto-mulher-maravilha02 {
     position: absolute;
     width: 235px;
     top: -36px;
@@ -294,7 +294,7 @@ img {
     transition: 500ms;
 }
 
-#container-main .section02 .box-cards:hover .card-01{
+#container-main .section02 .box-cards:hover .card-01 {
     filter: blur(5px);
 }
 
@@ -356,14 +356,14 @@ img {
     top: 65%;
 }
 
-#container-main .section02 .habi-mm ul{
+#container-main .section02 .habi-mm ul {
     position: absolute;
     width: 100%;
     height: 100%;
     list-style: none;
 }
 
-#container-main .section02 .habi-mm ul li{
+#container-main .section02 .habi-mm ul li {
     position: relative;
     width: 36px;
     height: 36px;
@@ -372,3 +372,8 @@ img {
     background-image: white;
 }
 
+#container-main .section02 .habi-mm ul li .icon-downloads{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+}
