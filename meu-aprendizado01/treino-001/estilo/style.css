@@ -130,7 +130,7 @@ img {
 
 .section01 .info-personagem .nome-personagem {
     text-align: center;
-    /* Text align center serve para alinhar tudo ao centro, comumente usado no container pai para a centralização de seus filos */
+    /* Text align center serve para alinhar tudo ao centro, comumente usado no container pai para a centralização de seus filhos */
     font-size: 2em;
     padding: 12px 0 12px 0;
 }
