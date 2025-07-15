@@ -10,3 +10,6 @@ dia - 2
 As coisas estão fluindo! Devagar, mas indo tudo bem.
 ----
 Está tudo um pouco mais facil de entender position \ "" /
+
+dia- 3 
+Tudo indo bem!
