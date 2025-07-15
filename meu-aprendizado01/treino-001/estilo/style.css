@@ -268,12 +268,17 @@ img {
 .box .cards-icons02 ul{
     position: absolute;
     border: 2px yellowgreen solid;
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
+    top: 75%;
+    left: 30%;
+    transform: translate(-15%, -10%);
+    list-style: none;
 }
 
 .box .cards-icons02 ul li{
     position: relative;
+    display: inline-block;
     width: 36px;
     height: 36px;
     border: 2px solid black;
