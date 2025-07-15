@@ -37,7 +37,7 @@ img {
 
 .cabecalho .nav-links ul {
     list-style: none;
-    margin-left: 12px
+    padding-left: 12px;
 }
 
 .cabecalho .nav-links ul li {
@@ -75,7 +75,7 @@ img {
 }
 
 .cabecalho .nav-links ul li:hover a {
-    color: var(--cor02);
+    color: var(--cor01);
 }
 
 
@@ -161,7 +161,7 @@ img {
     border: 2px hotpink solid;
     border-radius: 8px;
     background-image: linear-gradient(to bottom, var(--cor01), var(--cor02));
-    overflow: hidden;
+    overflow: visible;
 }
 
 .box .cards::before {
@@ -191,37 +191,6 @@ img {
     width: 235px;
     top: -36px;
     left: -39px;
-}
-
-.box .cards ul {
-    position: absolute;
-    list-style: none;
-    width: 100%;
-    height: 100%;
-    top: 75%;
-    left: 30%;
-    transform: translate(-15%, -10%);
-}
-
-
-.box .cards ul li {
-    position: relative;
-    display: inline-block;
-    width: 36px;
-    height: 36px;
-    border: 2px solid black;
-    border-radius: 8px;
-    box-shadow: 5px 5px 15px #00000090;
-    background: whitesmoke;
-}
-
-.box .cards ul li .icon-downloads {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .box .cards-icons {
@@ -286,6 +255,39 @@ img {
     transform: translate(-50%, -50%);
     width: 24px;
     height: 24px;
+}
+/**/
+.box .cards-icons02{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 2px brown solid;
+    overflow: hidden;
+}
+
+.box .cards-icons02 ul{
+    position: absolute;
+    border: 2px yellowgreen solid;
+    width: 50%;
+    height: 50%;
+}
+
+.box .cards-icons02 ul li{
+    position: relative;
+    width: 36px;
+    height: 36px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: whitesmoke;
+}
+
+.box .cards-icons02 ul li .icon-downloads{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /*section02 - Começo*/
