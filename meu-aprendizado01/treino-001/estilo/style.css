@@ -386,7 +386,7 @@ img {
 #container-main .section02 .habi-mm ul li:hover {
     transform: translateY(-15px) scale(1.05);
     box-shadow: 5px 5px 15px var(--shadow-color),
-        -5px -5px 15px var(--shadow-color),
+        5px 5px 15px var(--shadow-color),
         0px 0px 15px var(--shadow-color),
         0px 0px 15px inset var(--shadow-color-inset),
         0px 0px 15px inset var(--shadow-color-inset);
@@ -399,4 +399,10 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#container-main .section02 .habi-mm .box-baixe-aqui{
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
