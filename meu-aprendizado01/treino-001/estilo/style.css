@@ -385,11 +385,11 @@ img {
 
 #container-main .section02 .habi-mm ul li:hover {
     transform: translateY(-15px) scale(1.05);
-    box-shadow: 5px 5px 15px var(--cor01),
-        -5px -5px 15px var(--cor01),
-        0px 0px 15px var(--cor01),
-        0px 0px 15px inset var(--cor01),
-        0px 0px 15px inset var(--cor01);
+    box-shadow: 5px 5px 15px var(--shadow-color),
+        -5px -5px 15px var(--shadow-color),
+        0px 0px 15px var(--shadow-color),
+        0px 0px 15px inset var(--shadow-color-inset),
+        0px 0px 15px inset var(--shadow-color-inset);
 }
 
 #container-main .section02 .habi-mm ul li .icon-downloads {
