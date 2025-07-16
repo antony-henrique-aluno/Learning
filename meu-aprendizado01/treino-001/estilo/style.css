@@ -256,8 +256,9 @@ img {
     width: 24px;
     height: 24px;
 }
+
 /**/
-.box .cards-icons02{
+.box .cards-icons02 {
     position: relative;
     width: 100%;
     height: 100%;
@@ -265,28 +266,28 @@ img {
     overflow: hidden;
 }
 
-.box .cards-icons02 h1{
+.box .cards-icons02 h1 {
     position: absolute;
     font-family: Tahoma;
     font-size: 1.4em;
     color: whitesmoke;
-    top: 35%;
-    left: 49%;
+    top: 71%;
+    left: 62%;
     transform: translate(-15%, -10%);
 }
 
-.box .cards-icons02 ul{
+.box .cards-icons02 ul {
     position: absolute;
     border: 2px yellowgreen solid;
     width: 100%;
     height: 100%;
     top: 75%;
-    left: 30%;
+    left: 15%;
     transform: translate(-15%, -10%);
     list-style: none;
 }
 
-.box .cards-icons02 ul li{
+.box .cards-icons02 ul li {
     position: relative;
     display: inline-block;
     width: 36px;
@@ -296,7 +297,7 @@ img {
     background-color: whitesmoke;
 }
 
-.box .cards-icons02 ul li .icon-downloads{
+.box .cards-icons02 ul li .icon-downloads {
     position: absolute;
     width: 24px;
     height: 24px;
