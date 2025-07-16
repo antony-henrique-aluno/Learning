@@ -265,6 +265,16 @@ img {
     overflow: hidden;
 }
 
+.box .cards-icons02 h1{
+    position: absolute;
+    font-family: Tahoma;
+    font-size: 1.4em;
+    color: whitesmoke;
+    top: 35%;
+    left: 49%;
+    transform: translate(-15%, -10%);
+}
+
 .box .cards-icons02 ul{
     position: absolute;
     border: 2px yellowgreen solid;
