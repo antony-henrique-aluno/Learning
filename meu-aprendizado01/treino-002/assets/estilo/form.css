@@ -5,7 +5,33 @@
 }
 
 main {
+    position: relative;
     width: 100dvw;
     min-height: 100dvh;
     background-image: linear-gradient(to left, #7d13b6, #6c049d, #270040);
+}
+
+main form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main form section div{
+    position: relative;
+    padding-top: 16px;
+}
+
+label{
+    position: absolute;
+    display: block;
+    
+}
+div{
+    border: 1px solid green;
+}
+input{
+    width: 250px;
+    height: 42px;
 }
