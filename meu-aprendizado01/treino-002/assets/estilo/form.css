@@ -19,20 +19,17 @@ main form {
 }
 
 main form section div {
-    position: relative; /* Relative deixa seu filho totalmente absolute a ele */
+    position: relative;
+    /* Relative deixa seu filho totalmente absolute a ele */
     margin-top: 24px;
 }
 
-main form section div i{
+main form section div i {
     position: absolute;
     top: 50%;
     right: 0;
     transform: translateY(-50%);
     font-size: 28px;
-}
-
-main form section div input:hover i{
-    transform: translateY(-24px);
 }
 
 label {
@@ -51,4 +48,8 @@ input {
     outline: none;
     border: none;
     border-bottom: 1px solid black;
+}
+
+input:focus, input:valid{
+    border-bottom: 1px solid #b83cfc;
 }
