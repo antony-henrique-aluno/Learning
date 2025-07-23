@@ -19,6 +19,12 @@ main form {
     transform: translate(-50%, -50%);
 }
 
+main form section legend{
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: bold;
+}
+
 main form section div {
     position: relative;
     /* Relative deixa seu filho totalmente absolute a ele */
