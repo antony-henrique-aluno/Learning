@@ -1,8 +1,8 @@
 * {
-    position: 0;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 main {
@@ -51,6 +51,10 @@ input {
     border-bottom: 1px solid black;
 }
 
+input, label, i{
+    transition: 500ms;
+}
+
 input:focus,
 input:valid {
     border-bottom: 1px solid #b83cfc;
@@ -58,11 +62,28 @@ input:valid {
     font-weight: bold;
 }
 
-input:focus ~ label, input:valid ~ label{
+input:focus~label,
+input:valid~label {
     transform: translateY(-36px);
     color: #b83cfc;
 }
 
-input:focus ~ i, input:valid ~ i{
+input:focus~i,
+input:valid~i {
     color: #b83cfc;
+}
+
+.box-btn{
+    width: 100%;
+    height: 36px;
+    position: relative;
+}
+
+.box-btn button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85px;
+    height: 100%;
 }
