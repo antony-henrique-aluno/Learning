@@ -50,6 +50,11 @@ input {
     border-bottom: 1px solid black;
 }
 
-input:focus, input:valid{
+input:focus,
+input:valid {
     border-bottom: 1px solid #b83cfc;
+}
+
+input:focus ~ i, input:valid ~ i{
+    color: #b83cfc;
 }
