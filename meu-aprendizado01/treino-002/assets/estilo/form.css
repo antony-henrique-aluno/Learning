@@ -19,15 +19,8 @@ main form {
 }
 
 main form section div {
-    position: relative;
+    position: relative; /* Relative deixa seu filho totalmente absolute a ele */
     margin-top: 24px;
-    border: 1px solid palegreen;
-}
-
-input {
-    position: relative;
-    width: 280px;
-    height: 42px;
 }
 
 label {
@@ -35,4 +28,15 @@ label {
     display: block;
     bottom: 0;
     left: 0;
+}
+
+input {
+    width: 280px;
+    height: 42px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background: linear-gradient(to left, #9904cd, #de03ec);
+    outline: none;
+    border: 1px solid black;
+    border-radius: 8px;
 }
