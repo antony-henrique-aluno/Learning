@@ -23,6 +23,14 @@ main form section div {
     margin-top: 24px;
 }
 
+i{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    font-size: 28px;
+}
+
 label {
     position: absolute;
     display: block;
