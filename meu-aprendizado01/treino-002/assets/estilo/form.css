@@ -11,27 +11,29 @@ main {
     background-image: linear-gradient(to left, #7d13b6, #6c049d, #270040);
 }
 
-main form{
+main form {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-main form section div{
+main form section div {
     position: relative;
     padding-top: 16px;
 }
 
-label{
+label {
     position: absolute;
     display: block;
-    
+    top: 0;
 }
-div{
+
+div {
     border: 1px solid green;
 }
-input{
+
+input {
     width: 250px;
     height: 42px;
 }
