@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
-main{
+main {
+    width: 100dvw;
+    min-height: 100dvh;
     background-image: linear-gradient(to left, #7d13b6, #6c049d, #270040);
 }
