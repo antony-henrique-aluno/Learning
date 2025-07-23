@@ -20,20 +20,19 @@ main form {
 
 main form section div {
     position: relative;
-    padding-top: 16px;
+    margin-top: 24px;
+    border: 1px solid palegreen;
+}
+
+input {
+    position: relative;
+    width: 280px;
+    height: 42px;
 }
 
 label {
     position: absolute;
     display: block;
-    top: 0;
-}
-
-div {
-    border: 1px solid green;
-}
-
-input {
-    width: 250px;
-    height: 42px;
+    bottom: 0;
+    left: 0;
 }
