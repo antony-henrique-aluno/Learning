@@ -94,4 +94,5 @@ input:valid~i {
     width: 100px;
     height: 100%;
     color: white;
+    font-weight: bold;
 }
