@@ -2,6 +2,7 @@
     position: 0;
     margin: 0;
     box-sizing: border-box;
+    border: 1px solid black;
 }
 
 main {
@@ -53,6 +54,13 @@ input {
 input:focus,
 input:valid {
     border-bottom: 1px solid #b83cfc;
+    color: #b83cfc;
+    font-weight: bold;
+}
+
+input:focus ~ label, input:valid ~ label{
+    transform: translateY(-36px);
+    color: #b83cfc;
 }
 
 input:focus ~ i, input:valid ~ i{
