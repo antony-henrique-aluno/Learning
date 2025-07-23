@@ -95,4 +95,11 @@ input:valid~i {
     height: 100%;
     color: white;
     font-weight: bold;
+    transition: 500ms;
+}
+
+button:hover{
+    transform: translate(-50%, -50%) scale(1.05);
+    box-shadow: 7px 7px 10px #b83cfc;
+    color: #ff03e1;
 }
