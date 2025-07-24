@@ -22,4 +22,6 @@ main section form fieldset{
     position: relative;
     width: 320px;
     height: 625px;
+    border: 1px solid black;
+    border-radius: 12px;
 }
