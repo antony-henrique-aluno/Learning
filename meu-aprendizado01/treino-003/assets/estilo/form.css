@@ -59,5 +59,6 @@ main section form fieldset .input {
     width: 285px;
     height: 42px;
     background: transparent;
-    border: 1px solid black;
+    border: 2px solid black;
+    border-radius: 12px;
 }
