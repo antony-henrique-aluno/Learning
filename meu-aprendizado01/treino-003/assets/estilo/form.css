@@ -153,9 +153,16 @@ main section form fieldset .btn:hover::before {
     left: 0;
 }
 
+main section form fieldset .box-sexo{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 /*.box-nome:has(.input:focus) :not(:focus),
 .box-sobrenome:has(.input:focus) :not(:focus),
 .box-email:has(.input:focus) :not(:focus),
-.box-senha:has(.input:focus) :not(:focus){
+.box-senha:has(.input:focus) :not(:focus) {
     opacity: 0.5;
 }*/
