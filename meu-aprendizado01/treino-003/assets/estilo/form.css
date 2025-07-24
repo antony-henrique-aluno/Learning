@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    border: 1px solid hotpink;
+    /* border: 1px solid hotpink; */
 }
 
 main {
@@ -72,11 +72,11 @@ main section form fieldset .input {
     padding-left: 12px;
 }
 
-div{
+div {
     position: relative;
 }
 
-i{
+i {
     position: absolute;
     top: 50%;
     right: 0;
@@ -84,7 +84,7 @@ i{
     font-size: 28px;
 }
 
-label{
+label {
     position: absolute;
     display: block;
     left: 0;
