@@ -58,7 +58,7 @@ main section form fieldset .box-senha {
 main section form fieldset .box-btn {
     position: absolute;
     top: 70%;
-    left: 50%;
+    left: 25%;
     transform: translate(-50%, -50%);
 }
 
@@ -153,18 +153,16 @@ main section form fieldset .btn:hover::before {
     left: 0;
 }
 
-main section form fieldset .box-sexo {
+main section form fieldset .box-sexo-m {
     position: absolute;
     top: 70%;
-    left: 50%;
+    left: 70%;
     transform: translate(-50%, -50%);
     border: 1px solid hotpink;
     
 }
 
-main section form fieldset .masculino{
-    width: 23px;
-    height: 23px;
+main section form fieldset .masculino {
 }
 
 /*.box-nome:has(.input:focus) :not(:focus),
