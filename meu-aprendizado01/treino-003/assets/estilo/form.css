@@ -77,9 +77,21 @@ main section form fieldset .btn{
     height: 38px;
     border: 2px black solid;
     border-radius: 12px;
+    overflow: hidden;
 }
 
-main section fieldset .btn::before{
+main section form fieldset .btn::before{ /* Para usar o pseudo elemento before com hover, primeiro defina a pseudo class e depois use o hover junto da pseudo class */
     position: absolute;
-    content: ksskdkssk;
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    background: black;
+    transition: 500ms;
+}
+
+main section form fieldset .btn:hover::before{
+    left: 0;
 }
