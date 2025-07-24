@@ -25,6 +25,13 @@ main section form fieldset {
     height: 625px;
     border: 1px solid black;
     border-radius: 12px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+main section form fieldset legend{
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
 }
 
 main section form fieldset .box-nome {
@@ -151,18 +158,6 @@ main section form fieldset .btn::before {
 
 main section form fieldset .btn:hover::before {
     left: 0;
-}
-
-main section form fieldset .box-sexo-m {
-    position: absolute;
-    top: 70%;
-    left: 70%;
-    transform: translate(-50%, -50%);
-    border: 1px solid hotpink;
-    
-}
-
-main section form fieldset .masculino {
 }
 
 /*.box-nome:has(.input:focus) :not(:focus),
