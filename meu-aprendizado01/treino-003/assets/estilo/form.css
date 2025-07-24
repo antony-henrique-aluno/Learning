@@ -26,35 +26,38 @@ main section form fieldset {
     border-radius: 12px;
 }
 
-main section form fieldset .box-nome{
+main section form fieldset .box-nome {
     position: absolute;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-main section form fieldset .box-sobrenome{
+main section form fieldset .box-sobrenome {
     position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-main section form fieldset .box-email{
+main section form fieldset .box-email {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-main section form fieldset .box-senha{
+main section form fieldset .box-senha {
     position: absolute;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-main section form fieldset .input{
+main section form fieldset .input {
+    position: relative;
     width: 285px;
     height: 42px;
+    background: transparent;
+    border: 1px solid black;
 }
