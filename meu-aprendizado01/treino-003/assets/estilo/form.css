@@ -18,10 +18,43 @@ main section form {
     transform: translate(-50%, -50%);
 }
 
-main section form fieldset{
+main section form fieldset {
     position: relative;
     width: 320px;
     height: 625px;
     border: 1px solid black;
     border-radius: 12px;
+}
+
+main section form fieldset .box-nome{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main section form fieldset .box-sobrenome{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main section form fieldset .box-email{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main section form fieldset .box-senha{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main section form fieldset .input{
+    width: 285px;
+    height: 42px;
 }
