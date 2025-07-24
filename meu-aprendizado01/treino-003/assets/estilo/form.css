@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
-main{
+main {
     position: relative;
     width: 100dvw;
     min-height: 100dvh;
     background: linear-gradient(to left, #86ff17, #00fe5c);
+}
+
+main section form{
+    
 }
