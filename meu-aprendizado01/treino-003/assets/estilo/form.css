@@ -1,5 +1,12 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+main{
+    position: relative;
+    width: 100dvw;
+    min-height: 100dvh;
+    background: linear-gradient(to left, #86ff17, #00fe5c);
 }
