@@ -153,11 +153,17 @@ main section form fieldset .btn:hover::before {
     left: 0;
 }
 
-main section form fieldset .box-sexo{
+main section form fieldset .box-sexo {
     position: absolute;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border: 1px solid hotpink;
+}
+
+main section form fieldset .masculino{
+    width: 23px;
+    height: 23px;
 }
 
 /*.box-nome:has(.input:focus) :not(:focus),
