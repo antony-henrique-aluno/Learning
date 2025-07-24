@@ -54,6 +54,13 @@ main section form fieldset .box-senha {
     transform: translate(-50%, -50%);
 }
 
+main section form fieldset .box-btn{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 main section form fieldset .input {
     position: relative;
     width: 285px;
