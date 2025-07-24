@@ -79,9 +79,10 @@ main section form fieldset .input {
     position: relative;
 }
 
-.input:focus, 
-.input:valid{
-    border-bottom: rgb(209,255,47) solid 2px;
+.input:focus,
+.input:valid {
+    border-bottom: rgb(209, 255, 47) solid 2px;
+    color: rgb(209, 255, 47);
 }
 
 i {
@@ -90,11 +91,12 @@ i {
     right: 0;
     transform: translateY(-50%);
     font-size: 26px;
+    transition: 500ms;
 }
 
-.input:focus ~ i,
-.input:valid ~ i{
-    color: rgb(209,255,47);
+.input:focus~i,
+.input:valid~i {
+    color: rgb(209, 255, 47);
 }
 
 label {
@@ -102,11 +104,12 @@ label {
     left: 0;
     bottom: 0;
     z-index: 1;
+    transition: 500ms;
 }
 
-.input:focus ~ label,
-.input:valid ~ label{
-    bottom: 24px;
+.input:focus~label,
+.input:valid~label {
+    bottom: 34px;
 }
 
 
@@ -120,6 +123,15 @@ main section form fieldset .btn {
     border-radius: 12px;
     z-index: 1;
     overflow: hidden;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.3);
+    transition: 500ms;
+}
+
+main section form fieldset .btn:hover{
+    transform: scale(1.05);
+    box-shadow: 7px 7px 10px rgb(54,255,72),
+     7px 7px 10px rgb(54,255,72),
+     7px 7px 10px rgb(54,255,72);
 }
 
 main section form fieldset .btn::before {
