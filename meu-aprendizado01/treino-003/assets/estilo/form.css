@@ -66,14 +66,22 @@ main section form fieldset .input {
     width: 285px;
     height: 42px;
     background: transparent;
-    border: 2px solid black;
-    border-radius: 12px;
+    border: none;
+    border-bottom: 2px solid black;
+    border-radius: 0;
     outline: none;
     padding-left: 12px;
+    transition: 500ms;
 }
 
-div {
+
+.input {
     position: relative;
+}
+
+.input:focus, 
+.input:valid{
+    border-bottom: rgb(209,255,47) solid 2px;
 }
 
 i {
@@ -81,15 +89,27 @@ i {
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-    font-size: 28px;
+    font-size: 26px;
+}
+
+.input:focus ~ i,
+.input:valid ~ i{
+    color: rgb(209,255,47);
 }
 
 label {
     position: absolute;
-    display: block;
     left: 0;
-    top: 0;
+    bottom: 0;
+    z-index: 1;
 }
+
+.input:focus ~ label,
+.input:valid ~ label{
+    bottom: 24px;
+}
+
+
 
 main section form fieldset .btn {
     position: relative;
