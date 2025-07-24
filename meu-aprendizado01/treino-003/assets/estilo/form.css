@@ -152,3 +152,10 @@ main section form fieldset .btn::before {
 main section form fieldset .btn:hover::before {
     left: 0;
 }
+
+/*.box-nome:has(.input:focus) :not(:focus),
+.box-sobrenome:has(.input:focus) :not(:focus),
+.box-email:has(.input:focus) :not(:focus),
+.box-senha:has(.input:focus) :not(:focus){
+    opacity: 0.5;
+}*/
