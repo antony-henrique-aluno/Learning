@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    border: 1px solid hotpink;
 }
 
 main {
@@ -71,12 +72,22 @@ main section form fieldset .input {
     padding-left: 12px;
 }
 
-main section form fieldset div{
+div{
     position: relative;
 }
 
-main section form fieldset div label{
+i{
     position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    font-size: 28px;
+}
+
+label{
+    position: absolute;
+    display: block;
+    left: 0;
     top: 0;
 }
 
@@ -100,7 +111,7 @@ main section form fieldset .btn::before {
     height: 100%;
     top: 0;
     left: -100%;
-    background: linear-gradient(45deg, #2cff27, #61ff04, #00e739 ,#81ff20);
+    background: linear-gradient(45deg, #2cff27, #61ff04, #00e739, #81ff20);
     z-index: -1;
     transition: 500ms;
 }
