@@ -11,6 +11,15 @@ main {
     background: linear-gradient(to left, #86ff17, #00fe5c);
 }
 
-main section form{
-    
+main section form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main section form fieldset{
+    position: relative;
+    width: 320px;
+    height: 625px;
 }
