@@ -17,8 +17,34 @@
                         Treino - 003
                     </legend>
                     <div class="box-nome">
-                        <input type="text" name="nome" id="nome">
+                        <input type="text" name="nome" id="nome" maxlength="32" required
+                        placeholder="Nome">
                         <label for="nome">Nome</label>
+                    </div>
+                    
+                    <div class="box-sobrenome">
+                        <input type="text" name="sobrenome" id="sobrenome" maxlength="32" required 
+                        placeholder="Sobrenome">
+                        <label for="sobrenome">Sobrenome</label>
+                    </div>
+                    
+                    <div class="box-email">
+                        <input type="email" name="email" id="email" require 
+                        placeholder="E-mail">
+                        <label for="email">E-mail</label>
+                    </div>
+                    
+                    <div class="box-senha">
+                        <input type="password" name="senha" id="senha" required
+                        placeholder="Senha">
+                        <label for="senha">Senha</label>
+                    </div>
+                    
+                    <div class="box-sexo">
+                        <input type="radio" name="m" id="m" required>
+                        <label for="m">Masculino</label>
+                        <input type="radio" name="m" id="f" required>
+                        <label for="f">Feminino</label>
                     </div>
                 </fieldset>
             </section>
