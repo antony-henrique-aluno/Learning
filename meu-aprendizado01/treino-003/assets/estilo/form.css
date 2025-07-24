@@ -62,12 +62,22 @@ main section form fieldset .box-btn {
 }
 
 main section form fieldset .input {
-    position: relative;
     width: 285px;
     height: 42px;
     background: transparent;
     border: 2px solid black;
     border-radius: 12px;
+    outline: none;
+    padding-left: 12px;
+}
+
+main section form fieldset div{
+    position: relative;
+}
+
+main section form fieldset div label{
+    position: absolute;
+    top: 0;
 }
 
 main section form fieldset .btn {
