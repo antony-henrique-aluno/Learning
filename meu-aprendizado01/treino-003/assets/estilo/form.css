@@ -70,17 +70,19 @@ main section form fieldset .input {
     border-radius: 12px;
 }
 
-main section form fieldset .btn{
+main section form fieldset .btn {
     position: relative;
     background: linear-gradient(to left, #32ff10, #0cff66);
     width: 120px;
     height: 38px;
     border: 2px black solid;
     border-radius: 12px;
+    z-index: 1;
     overflow: hidden;
 }
 
-main section form fieldset .btn::before{ /* Para usar o pseudo elemento before com hover, primeiro defina a pseudo class e depois use o hover junto da pseudo class */
+main section form fieldset .btn::before {
+    /* Para usar o pseudo elemento before com hover, primeiro defina a pseudo class e depois use o hover junto da pseudo class */
     position: absolute;
     content: '';
     display: inline-block;
@@ -88,10 +90,11 @@ main section form fieldset .btn::before{ /* Para usar o pseudo elemento before c
     height: 100%;
     top: 0;
     left: -100%;
-    background: black;
+    background: linear-gradient(45deg, #2cff27, #61ff04, #00e739 ,#81ff20);
+    z-index: -1;
     transition: 500ms;
 }
 
-main section form fieldset .btn:hover::before{
+main section form fieldset .btn:hover::before {
     left: 0;
 }
