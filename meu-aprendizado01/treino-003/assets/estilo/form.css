@@ -161,9 +161,12 @@ main section form fieldset .btn:hover::before {
 }
 
 main section form fieldset .box-redes-sociais{
-    position: relative;
+    position: absolute;
     width: 100%;
-    background: black;
+    height: 60px;
+    left: 50%;
+    top: 75px;
+    transform: translateX(-50%);
 }
 
 main section form fieldset .box-redes-sociais ul{
@@ -171,7 +174,7 @@ main section form fieldset .box-redes-sociais ul{
     list-style: none;
     width: 100%;
     text-align: center;
-    top: 120px;
+    
 }
 
 main section form fieldset .box-redes-sociais ul li{
