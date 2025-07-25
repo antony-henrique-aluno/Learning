@@ -162,18 +162,16 @@ main section form fieldset .btn:hover::before {
 
 main section form fieldset .box-redes-sociais{
     position: relative;
-    border: 5px solid black;
     width: 100%;
-    height: 100%;
+    background: black;
 }
 
 main section form fieldset .box-redes-sociais ul{
     position: absolute;
-    border: 2px solid gray;
     list-style: none;
     width: 100%;
-    height: 25%;
     text-align: center;
+    top: 120px;
 }
 
 main section form fieldset .box-redes-sociais ul li{
@@ -181,8 +179,13 @@ main section form fieldset .box-redes-sociais ul li{
     display: inline-block;
     width: 38px;
     height: 38px;
+    margin-left: 42px;
     border-radius: 50%;
-    border: 2px solid blue;
+    border: 2px solid black;
+}
+
+main section form fieldset .box-redes-sociais ul li:first-child{
+    margin-left: 0;
 }
 
 main section form fieldset .box-redes-sociais ul li .fa-github,
