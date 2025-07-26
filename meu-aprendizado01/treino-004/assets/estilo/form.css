@@ -1,41 +1,53 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-main{
+main {
     position: relative;
     width: 100dvw;
     min-height: 100dvh;
-    background: linear-gradient(120deg, rgb(33,254,253), rgb(0,167,166));
+    background: linear-gradient(120deg, rgb(33, 254, 253), rgb(0, 167, 166));
 }
 
-main section form{
+main section form {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-main section form fieldset{
+main section form fieldset {
     position: relative;
     width: 100dvw;
     height: 100dvh;
     border: 1px solid black;
 }
 
-input{
+input {
     width: 75dvw;
     height: 7dvh;
-    border: 2px solid rgb(2,164,203);
+    border: 2px solid rgb(2, 164, 203);
     border-radius: 16px;
-    background: rgb(0,73,151);
+    background: linear-gradient(to left, rgb(0, 73, 151), rgb(60,154,254));
 }
 
-main section form fieldset .nome{
+main section form fieldset .nome {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+main section form fieldset .email {
     position: absolute;
     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+main section form fieldset .senha {
+    position: absolute;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
