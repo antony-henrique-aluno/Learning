@@ -25,7 +25,7 @@ main section form fieldset {
     border: 1px solid black;
 }
 
-main section form fieldset .titulo{
+main section form fieldset .titulo {
     position: absolute;
     top: 15%;
     left: 50%;
@@ -35,11 +35,12 @@ main section form fieldset .titulo{
     height: 38px;
 }
 
-main section form fieldset .titulo h1{
+main section form fieldset .titulo h1 {
     position: absolute;
     top: 15%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 2.8em;
 }
 
 main section form fieldset .nome {
@@ -48,12 +49,14 @@ main section form fieldset .nome {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 main section form fieldset .email {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 main section form fieldset .senha {
     position: absolute;
     top: 60%;
@@ -61,13 +64,13 @@ main section form fieldset .senha {
     transform: translate(-50%, -50%);
 }
 
-input{
+input {
     width: 75dvw;
     height: 7dvh;
     outline: none;
-    border: 2px solid rgb(64,156,255);
+    border: 2px solid rgb(64, 156, 255);
     border-radius: 12px;
-    background: linear-gradient(to left, rgb(0,145,225), rgb(0,89,138));
+    background: linear-gradient(to left, rgb(0, 145, 225), rgb(0, 89, 138));
     padding-left: 12px;
     color: white;
     font-weight: bold;
