@@ -89,13 +89,20 @@ main section form fieldset i{
     font-size: 1.6em;
 }
 
+main section form fieldset .container-btn{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 main section form fieldset .box-redes-sociais {
     /* border: 2px solid black; */
     position: absolute;
     max-width: 100%;
     min-width: 350px;
     height: 60px;
-    top: 75%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
