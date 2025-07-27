@@ -127,6 +127,7 @@ li:hover{
 
 .box-redes-sociais:has(li:hover) li:not(:hover){
     transform: scale(.7);
+    opacity: 0.7;
 }
 
 main section form fieldset .box-redes-sociais ul li:first-child{
