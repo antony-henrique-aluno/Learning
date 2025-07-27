@@ -76,29 +76,32 @@ main section form fieldset input {
     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.4);
 }
 
-input::placeholder{
-    color: rgb(207,234,255);
+input::placeholder {
+    color: rgb(207, 234, 255);
 }
 
-main section form fieldset i{
+main section form fieldset i {
     position: absolute;
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-    color: rgb(207,234,255);
+    color: rgb(207, 234, 255);
     font-size: 1.6em;
 }
 
-main section form fieldset .container-btn{
+main section form fieldset .container-btn {
     position: absolute;
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
-main section form fieldset .container-btn button{
+main section form fieldset .container-btn button {
     width: 75px;
     height: 32px;
+    background: linear-gradient(to left, rgb(0, 145, 225), rgb(0, 89, 138));
+    font-weight: bold;
+    color: rgb(207, 234, 255);;
     border: 2px solid black;
     border-radius: 12px;
     margin-left: 32px;
@@ -106,12 +109,12 @@ main section form fieldset .container-btn button{
     transition: 500ms;
 }
 
-main section form fieldset .container-btn button:first-child{
+main section form fieldset .container-btn button:first-child {
     margin-left: 0;
 }
 
-button:hover{
-    transform: translateY(-4px) scale: 1.1;
+button:hover {
+    transform: translateY(-4px) scale(1.1);
 }
 
 main section form fieldset .box-redes-sociais {
@@ -134,7 +137,7 @@ main section form fieldset .box-redes-sociais ul {
     list-style: none;
 }
 
-main section form fieldset .box-redes-sociais ul li{
+main section form fieldset .box-redes-sociais ul li {
     position: relative;
     display: inline-block;
     width: 36px;
@@ -146,20 +149,20 @@ main section form fieldset .box-redes-sociais ul li{
     transition: 500ms;
 }
 
-li:hover{
+li:hover {
     transform: scale(1.1);
 }
 
-.box-redes-sociais:has(li:hover) li:not(:hover){
+.box-redes-sociais:has(li:hover) li:not(:hover) {
     transform: scale(.7);
     opacity: 0.7;
 }
 
-main section form fieldset .box-redes-sociais ul li:first-child{
+main section form fieldset .box-redes-sociais ul li:first-child {
     margin-left: 0;
 }
 
-main section form fieldset .box-redes-sociais ul li i{
+main section form fieldset .box-redes-sociais ul li i {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -167,6 +170,6 @@ main section form fieldset .box-redes-sociais ul li i{
     font-size: 1.6em;
 }
 
-main section form fieldset .box-redes-sociais ul li a{
-    color: rgb(207,234,255);
+main section form fieldset .box-redes-sociais ul li a {
+    color: rgb(207, 234, 255);
 }
