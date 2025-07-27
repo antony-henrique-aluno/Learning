@@ -96,6 +96,19 @@ main section form fieldset .container-btn{
     transform: translate(-50%, -50%);
 }
 
+main section form fieldset .container-btn button{
+    width: 75px;
+    height: 32px;
+    border: 2px solid black;
+    border-radius: 12px;
+    margin-left: 32px;
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.3);
+}
+
+main section form fieldset .container-btn button:first-child{
+    margin-left: 0;
+}
+
 main section form fieldset .box-redes-sociais {
     /* border: 2px solid black; */
     position: absolute;
