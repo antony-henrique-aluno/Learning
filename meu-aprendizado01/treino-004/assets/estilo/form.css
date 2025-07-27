@@ -70,9 +70,23 @@ main section form fieldset input {
     border-radius: 12px;
     background: linear-gradient(to left, rgb(0, 145, 225), rgb(0, 89, 138));
     padding-left: 12px;
+    padding-right: 32px;
     color: white;
     font-weight: bold;
     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.4);
+}
+
+input::placeholder{
+    color: rgb(207,234,255);
+}
+
+main section form fieldset i{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    color: rgb(207,234,255);
+    font-size: 1.6em;
 }
 
 main section form fieldset .box-redes-sociais {
@@ -103,6 +117,16 @@ main section form fieldset .box-redes-sociais ul li{
     border: 2px solid black;
     border-radius: 50%;
     margin-left: 26px;
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.3);
+    transition: 500ms;
+}
+
+li:hover{
+    transform: scale(1.1);
+}
+
+.box-redes-sociais:has(li:hover) li:not(:hover){
+    transform: scale(.7);
 }
 
 main section form fieldset .box-redes-sociais ul li:first-child{
@@ -115,4 +139,8 @@ main section form fieldset .box-redes-sociais ul li i{
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 1.6em;
+}
+
+main section form fieldset .box-redes-sociais ul li a{
+    color: rgb(207,234,255);
 }
