@@ -103,10 +103,15 @@ main section form fieldset .container-btn button{
     border-radius: 12px;
     margin-left: 32px;
     box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.3);
+    transition: 500ms;
 }
 
 main section form fieldset .container-btn button:first-child{
     margin-left: 0;
+}
+
+button:hover{
+    transform: translateY(-4px) scale: 1.1;
 }
 
 main section form fieldset .box-redes-sociais {
