@@ -22,8 +22,6 @@ main section form article{
     width: 350px;
     height: 680px;
     border: 2px solid black;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4),
-    rgba(0,0,0,0.8)), url(assets/);
 }
 
 #nome,
