@@ -5,7 +5,7 @@ var botão2 = window.document.getElementById("btn2");
 botão1.addEventListener("touchstart", finalizado);
 function finalizado(){
     botão1.value = "Finalizado"
-    botão1.style.transition = "250ms"
+    botão1.style.transition = "500ms"
     setTimeout(concluir, 2000);
 }
 
