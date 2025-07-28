@@ -96,5 +96,18 @@ label{
 main section form article .box-btn{
     position: absolute;
     top: 75%; left: 50%; transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+main section form article .box-btn .button{
+    margin-left: 62px;
+    display: inline-block;
+    width: 75px;
+    height: 32px;
+}
+
+main section form article .box-btn .button:first-child{
+    margin-left: 0px;
 }
 
