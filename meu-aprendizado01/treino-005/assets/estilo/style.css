@@ -78,18 +78,18 @@ label{
 
 #nome:focus ~ label,
 #nome:valid ~ label{
-    transform: translateY(-32px);
+    transform: translateY(-36px);
     color: white;
 }
 #email:focus ~ label,
 #email:valid ~ label{
-    transform: translateY(-32px); 
+    transform: translateY(-36px); 
     color: white;
 }
 
 #senha:focus ~ label,
 #senha:valid ~ label{
-    transform: translateY(-32px);
+    transform: translateY(-36px);
     color: white;
 }
 
@@ -103,8 +103,13 @@ main section form article .box-btn{
 main section form article .box-btn .button{
     margin-left: 62px;
     display: inline-block;
-    width: 75px;
-    height: 32px;
+    width: 120px;
+    height: 42px;
+    background: linear-gradient(to left, rgb(255,38,253), rgb(214,0,212));
+    border: none;
+    border: 1px solid black;
+    border-radius: 16px;
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.4);
 }
 
 main section form article .box-btn .button:first-child{
