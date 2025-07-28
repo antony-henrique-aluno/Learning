@@ -116,3 +116,9 @@ main section form article .box-btn .button:first-child{
     margin-left: 0px;
 }
 
+main section form article .box-btn .button:hover{
+    transform: scale(1.1);
+    box-shadow: 4px 4px 9px rgb(255,38,253),
+    4px 4px 9px rgb(255,38,253),
+    4px 4px 9px rgb(255,38,253);
+}
