@@ -28,12 +28,29 @@ main section form article{
 #email,
 #senha{
     width: 250px;
-    height: 32px;
+    height: 16px;
     background: transparent;
     border: none;
     border-bottom: 1px solid black;
     outline: none;
     padding: 12px;
+    transition: 500ms;
+}
+
+#nome:focus,
+#nome:valid{
+    border-bottom: 1px solid white;
+    color: white;
+}
+#email:focus,
+#email:valid{
+    border-bottom: 1px solid white;
+    color: white;
+}
+#senha:focus,
+#senha:valid{
+    border-bottom: 1px solid white;
+    color: white;
 }
 
 .nome{
@@ -56,4 +73,23 @@ label{
     position: absolute;
     bottom: 0;
     left: 0;
+    transition: 500ms;
+}
+
+#nome:focus ~ label,
+#nome:valid ~ label{
+    transform: translateY(-32px);
+    color: white;
+}
+#email:focus ~ label,
+#email:valid ~ label{
+    transform: translateY(-32px); 
+    color: white;
+}
+
+#senha:focus ~ label,
+#senha:valid ~ label{
+    transform: translateY(-32px);
+    color: white;
+    
 }
