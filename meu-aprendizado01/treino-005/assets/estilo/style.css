@@ -4,3 +4,21 @@
     box-shadow: border-box;
 }
 
+main{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, rgb(238,0,235), rgb(255,82,253));
+}
+
+main section form{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+article{
+    width: 350px;
+    height: 680px;
+    border: 2px solid black;
+}
