@@ -3,11 +3,15 @@
 
 
 //var global
-var btn = window.document.getElementById("button1");
-
+var btn1 = window.document.getElementById("button1");
+var btn2 = window.document.getElementById("button2");
 //Events listeners
-btn.addEventListener("click", clicou);
+btn1.addEventListener("click", concluido);
+btn2.addEventListener("click", deletado);
+function concluido(){
+    btn1.innerText = "Concluido"
+}
 
-function clicou(){
-    btn.innerText = "Concluido"
+function deletado(){
+    btn2.innerText = "Deletado"
 }
