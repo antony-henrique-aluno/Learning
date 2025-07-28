@@ -17,8 +17,26 @@ main section form{
     transform: translate(-50%, -50%);
 }
 
-article{
+main section form article{
+    position: relative;
     width: 350px;
     height: 680px;
     border: 2px solid black;
+}
+
+#nome,
+#email,
+#senha{
+    width: 250px;
+    height: 32px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    padding: 12px;
+}
+
+.nome{
+    position: absolute;
+    top: 50%; left: 50%; transform: translate(-50%, -50%);
 }
