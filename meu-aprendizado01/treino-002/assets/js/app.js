@@ -5,5 +5,4 @@ const btn = querySelector("#btn1");
 btn.addEventListener("touchstart", toque);
 
 //Terceiro crie a função que vai disparar o evento
-
 function
