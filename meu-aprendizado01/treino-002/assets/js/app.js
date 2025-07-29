@@ -6,6 +6,9 @@ btn.addEventListener("touchstart", toque);
 
 //Terceiro crie a função que vai disparar o evento
 function toque(){
-    btn.innerText = "Kkkkkkk"
-    btn.style.background = "Blue";
+    btn.innerText = "Finalizado"
+    setTimeout(finalizar, 1000);
+    function finalizar(){
+        btn.innerText = "Finalizar"
+    }
 }
