@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* imagem pequena */
+.miniatura{
+   width: 200px;
+   transition: 500ms;
+   cursor: pointer;
+}
+
+.miniatura:hover{
+    opacity: .8;
+}
+
