@@ -8,4 +8,7 @@ const fechar = document.querySelector("#fechar");
 miniatura.addEventListener("click", clique);
 miniatura.addEventListener("touchstart", clique);
 
-function 
+function clique(){
+    modal.style.display = "block";
+    imagemAmpliada.src = miniatura.src;
+}
