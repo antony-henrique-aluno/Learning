@@ -12,3 +12,4 @@ function clique(){
     modal.style.display = "block";
     imagemAmpliada.src = miniatura.src;
 }
+
