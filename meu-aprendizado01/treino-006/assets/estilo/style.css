@@ -32,9 +32,8 @@
 .imagem-ampliada{
     margin: auto;
     display: block;
-    max-width: 90%;
-    max-height: 80%;
-    
+    width: 350px;
+    height: 450px;
 }
 
 /* botão de fechar */
