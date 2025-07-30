@@ -44,3 +44,10 @@ img{
     height: 100vh;
     
 }
+
+.zoomed-img{
+    max-width: 85vw;
+    max-height: 75vh;
+    border: 1px solid black; border-radius: 12px;
+    
+}
