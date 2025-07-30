@@ -17,5 +17,5 @@ function clique(){
 fechar.addEventListener("click", fechado);
 fechar.addEventListener("touchstart", fechado);
 function fechado(){
-    modal.style.display = "none";
+    modal.style.display = "none"; //Fecha a modal
 }
