@@ -5,6 +5,6 @@ const zoomedImg = document.querySelector("#zoomed-img");
 img.forEach(function(imagens){
     imagens.addEventListener("click", function(){
         zoomedImg.src = imagens.src;
-        modal.style.display = "block"
+        modal.style.display = "block";
     });
 });
