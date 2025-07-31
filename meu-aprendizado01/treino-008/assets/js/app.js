@@ -6,6 +6,6 @@ const zoomImg = document.querySelector("#zoom-img");
 miniatura.addEventListener("click", zoom);
 miniatura.addEventListener("touchstart", zoom);
 function zoom(){
-    modal.style.display ="block";
+    modal.style.display = "block";
     zoomImg.src = miniatura.src;
 } 
