@@ -32,6 +32,11 @@ main form fieldset .nome{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+#modal-nome{
+    
+}
+
 main form fieldset .email{
     position: absolute;
     top: 50%;
