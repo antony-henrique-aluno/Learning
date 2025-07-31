@@ -28,9 +28,29 @@ main form fieldset{
 
 main form fieldset .nome{
     position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+main form fieldset .email{
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+main form fieldset .senha{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#nome, #email, #senha{
+    width: 250px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(173,169,250);
 }
 
 #modal-nome{
