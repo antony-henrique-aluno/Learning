@@ -46,13 +46,39 @@ main form fieldset .senha{
 }
 
 #nome, #email, #senha{
+    position: relative;
     width: 250px;
     height: 24px;
+    padding-left: 12px;
+    padding-right: 12px;
     background: transparent;
     border: none;
+    outline: none;
     border-bottom: 2px solid rgb(173,169,250);
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: 500ms;
 }
 
-#modal-nome{
-    border: 2px solid black;
+label{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: 500ms;
 }
+
+#nome:focus, #nome:valid{
+    border-bottom: 2px solid rgb(27,15,255);
+    color: rgb(27,15,255);
+}
+
+#nome:focus ~ label, #nome:valid ~ label{
+    transform: translateY(-28px); 
+    
+}
+
+/* #modal-nome{
+    border: 2px solid black;
+} */
