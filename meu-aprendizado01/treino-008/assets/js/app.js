@@ -7,6 +7,7 @@ const Close = document.querySelector("#fechar")
 MiniaturaImg.addEventListener("click", zoom);
 MiniaturaImg.addEventListener("touchstart", zoom);
 Close.addEventListener("click", closeimg);
+Close.addEventListener("touchstart", closeimg);
 function zoom(){
     ZoomImg.src = MiniaturaImg.src;
     ModalImg.style.display = "block";
