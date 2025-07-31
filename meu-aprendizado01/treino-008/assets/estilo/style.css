@@ -37,6 +37,7 @@
     position: fixed;
     width: 100dvw;
     min-height: 100dvh;
+    z-index: 1000;
 }
 
 #modal #zoom-img{
