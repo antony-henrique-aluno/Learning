@@ -1,5 +1,9 @@
-const nome = document.querySelector("#nome");
-const modalNome = document.querySelector("#modal-nome");
 
-ModalNome = nome.innerHTML = "deu certo?"
-
+function qtdNome(){
+    const nome = document.querySelector("#nome")
+    const modalNome = document.querySelector("#nome-modal") 
+    if (nome.value.length <= 8) {
+        modalNome.innerHTML = "Senha muito fraca";
+        
+    }
+}
