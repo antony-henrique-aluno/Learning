@@ -10,6 +10,7 @@ Close.addEventListener("click", closeimg);
 function zoom(){
     ZoomImg.src = MiniaturaImg.src;
     ModalImg.style.display = "block";
+    ModalImg.style.background = "rgba(0, 0, 0, 0.7)"
 }
 
 function closeimg(){
