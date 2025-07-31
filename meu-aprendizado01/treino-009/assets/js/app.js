@@ -6,6 +6,6 @@ input.addEventListener("submit", qtdletras);
 
 function qtdletras(){
     if (nome.value.length <= 8) {
-        
+        modalNome.innerHTML = "Sou fracassado"
     }
 }
