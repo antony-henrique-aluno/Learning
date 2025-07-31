@@ -34,7 +34,8 @@ main form fieldset .nome{
 }
 
 #modal-nome{
-    
+    position: fixed;
+    top: 30px;
 }
 
 main form fieldset .email{
