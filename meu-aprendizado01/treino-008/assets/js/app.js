@@ -12,7 +12,7 @@ function zoom(){
     ModalImg.style.display = "block";
     ModalImg.style.background = "rgba(0, 0, 0, 0.7)"
 }
-
+ 
 function closeimg(){
     ModalImg.style.display = "none";
 }
