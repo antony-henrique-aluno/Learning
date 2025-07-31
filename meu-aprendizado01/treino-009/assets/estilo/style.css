@@ -19,7 +19,20 @@ main form{
 }
 
 main form fieldset{
+    position: relative;
     border: 2px solid black;
+    border-radius: 16px;
     width: 85dvw;
     height: 85dvh;
+}
+
+main form fieldset .nome{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#modal-nome{
+    border: 2px solid black;
 }
