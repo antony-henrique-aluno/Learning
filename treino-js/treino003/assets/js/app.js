@@ -1,0 +1,1 @@
+const caixaPergunta = document.querySelector("#pergunta");
