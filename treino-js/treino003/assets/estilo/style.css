@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    position: relative;
+    width: 100%;
+    min-height: 100dvh;
+    background: linear-gradient(to bottom, rgb(87,1,115), rgb(217,106,253));
+    
+}
+
+main .box{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#pergunta{
+    width: 350px;
+    height: 24px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(89,0,118);
+}
