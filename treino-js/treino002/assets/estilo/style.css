@@ -7,7 +7,7 @@
 img{
     width: 150px;
 }
-
+/*Container pai*/
 main{
     width: 100dvw;
     min-height: 100dvh;
@@ -15,12 +15,14 @@ main{
     position: relative;
 }
 
+/*Caixa que guarda o card*/
 main .box{
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
 }
 
+/*Card que contem a imagem*/
 .cardBox{
     border: 2px solid black;
     border-radius: 16px;
@@ -29,6 +31,7 @@ main .box{
     overflow: hidden;
 }
 
+/*Foto que vai receber clique*/
 .cardBox #ftMiniatura{
     width: 100%;
     height: 100%;
