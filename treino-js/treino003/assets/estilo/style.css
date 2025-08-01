@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+img{
+    width: 150px;
+}
+
 main{
     position: relative;
     width: 100%;
@@ -56,4 +60,17 @@ main .box{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 350px;
+}
+
+.boxImg{
+    position: absolute;
+    top: 76%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 75px;
+}
+
+.boxImg #imgMiniatura{
+    width: 100%;
+    height: 100%;
 }
