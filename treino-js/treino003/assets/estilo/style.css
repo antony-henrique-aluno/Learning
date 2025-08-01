@@ -48,4 +48,13 @@ main .box{
     border: 2px solid black;
     font-size: 1.1em;
     font-weight: bold;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.resultado{
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
 }
