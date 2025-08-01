@@ -28,9 +28,3 @@ main .box{
     padding-left: 16px;
     color: rgb(89,0,118);
 }
-
-label{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
