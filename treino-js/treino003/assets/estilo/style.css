@@ -25,6 +25,11 @@ main .box{
     border: none;
     outline: none;
     border-bottom: 2px solid rgb(89,0,118);
-    padding-left: 16px;
+    padding-left: 10px;
+    font-weight: bolder;
     color: rgb(89,0,118);
+}
+
+#pergunta::placeholder{
+    color: white;
 }
