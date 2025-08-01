@@ -10,7 +10,7 @@ function abrirImg(){
     modal.style.display = "block" 
     modal.style.background = "rgba(0, 0, 0, 0.5)"
     zoomImg.src = miniatura.src
-    function fechandoImg(){
-        modal.style.display = "none";
-    }
+}
+function fechandoImg(){
+    modal.style.display = "none"
 }
