@@ -5,7 +5,7 @@ const boxResult = document.querySelector(".resultado");
 btnConfirme.addEventListener("click", clique);
 
 function clique(){
-    if (caixaPergunta == brasil) {
+    if (caixaPergunta == "brasil") {
         boxResult.innerHTML = "Deu certo?"
     }else 
         boxResult.innerHTML = "Foda"
