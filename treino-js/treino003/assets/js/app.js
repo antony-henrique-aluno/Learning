@@ -10,4 +10,5 @@ function clique(){
         boxResult.innerHTML = "Deu certo?"
     }else 
         boxResult.innerHTML = "Foda"
+        caixaPergunta.style.borderBottom = "2px solid red"
 }
