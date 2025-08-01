@@ -36,7 +36,16 @@ main .box{
 
 .box-btn{
     position: absolute;
-    top: 55%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.box-btn #btn{
+    width: 120px;
+    height: 35px;
+    background: linear-gradient(to top, rgb(45,0,60), rgb(176,4,234));
+    border: 2px solid black;
+    font-size: 1.1em;
+    font-weight: bold;
 }
