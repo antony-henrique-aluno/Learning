@@ -1,7 +1,7 @@
 const nome = document.querySelector("#nome");
 const modalNome = document.querySelector("#modal-nome");
 const input = document.querySelector(".formulario"); 
-const modalSenha = document.querySelector("#modal-senhs");
+const ModalSenha = document.querySelector("#modal-senhs");
 
 input.addEventListener("submit", qtdletras);
 
