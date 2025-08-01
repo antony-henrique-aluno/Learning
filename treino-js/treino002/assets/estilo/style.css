@@ -12,4 +12,25 @@ main{
     width: 100dvw;
     min-height: 100dvh;
     background: linear-gradient(to right, rgb(0,198,83), rgb(14,115,1));
+    position: relative;
+}
+
+main .box{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cardBox{
+    position: relative;
+    border: 2px solid black;
+    border-radius: 16px;
+    width: 250px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.cardBox #ftMiniatura{
+    position: absolute;
+    
 }
