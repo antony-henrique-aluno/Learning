@@ -11,6 +11,7 @@ function abrirImg(){
     modal.style.background = "rgba(0, 0, 0, 0.5)"
     zoomImg.src = miniatura.src
 }
+
 function fechandoImg(){
     modal.style.display = "none"
 }
