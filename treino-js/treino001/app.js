@@ -1,4 +1,4 @@
-//Classificando temperatura
+//Classificando temperatura do menor valor até o maior
 
 const temperatura = 36
 if (temperatura < 0) {
@@ -9,3 +9,6 @@ if (temperatura < 0) {
     console.log("O clima está ficando quente")
 }else 
     console.log("Está pegando fogo, bixo!")
+    
+    
+//Classificando temperatura do maior valor, até o menor
