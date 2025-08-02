@@ -9,7 +9,10 @@ form.addEventListener("submit", clique);
 
 //Criando a função submit
 function clique(){
-    if (formNome) {
-        
+    if (formNome.value.length < 8) {
+        resultadoNome.innerHTML = "Nome muito pequeno! melhore.";
+        formNome.style.borderBottom = "2px solid red";
+    }else if (formNome.value.length > 8 && formNome.value.length <= 16) {
+        resultadoSenha.innerHTML = "Quantidade de letras aceitas";
     }
 }
