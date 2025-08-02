@@ -8,14 +8,14 @@ const resultadoSenha = document.querySelector("#boxAviso2");
 form.addEventListener("submit", function(event){
     event.preventDefault()//Parametro que impede o recarregamento da pagina
     //Logica da validação do nome
-    if (formNome.value.length <= 8) {
+    if (formNome.value.length < 8) {
         resultadoNome.innerHTML = "Seu nome tem poucas letras"
         formNome.style.borderBottom = "2px solid rgb(255,14,14)";
     }else if (formNome.value.length > 8 && formNome.value.length <= 16) {
         resultadoNome.innerHTML = "Seu nome tem uma Quantidade de letras rasoaveis"
         formNome.style.borderBottom = "2px solid rgb(255,160,14)";
     }
-}
+});
 
 
 
