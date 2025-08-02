@@ -11,6 +11,10 @@ form.addEventListener("submit", function(event){
     if (formNome.value.length < 8) {
         resultadoNome.innerHTML = "Seu nome tem poucas letras";
         formNome.style.borderBottom = "2px solid rgb(255,14,14)";
+        setTimeout(function(){
+            resultadoNome.innerHTML = "";
+            formNome.style.value = "";
+        }, 5000)
     }else if (formNome.value.length > 8 && formNome.value.length <= 16) {
         resultadoNome.innerHTML = "Seu nome tem uma Quantidade de letras rasoaveis";
         formNome.style.borderBottom = "2px solid rgb(255,160,14)";
