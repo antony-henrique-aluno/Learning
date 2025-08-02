@@ -11,7 +11,7 @@ function clique(){
     const valorDigitado = caixaPergunta.value.toLowerCase();
     if (valorDigitado == "brasil") {
         boxResult.innerHTML = "Deu certo?"
-    }else if
+    }else 
         boxResult.innerHTML = "Foda"
         caixaPergunta.style.borderBottom = "2px solid red"
 }
