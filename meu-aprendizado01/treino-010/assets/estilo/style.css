@@ -8,4 +8,18 @@ main{
     width: 100%;
     min-height: 100dvh;
     background: linear-gradient(to bottom, rgb(4,138,234), rgb(134,186,223));
+    position: relative;
+}
+
+main form {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+fieldset{
+    position: relative;
+    width: 350px;
+    height: 650px;
+    border: 2px solid black; border-radius: 16px;
 }
