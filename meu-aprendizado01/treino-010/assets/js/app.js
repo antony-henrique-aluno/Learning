@@ -30,6 +30,7 @@ form.addEventListener("submit", function(event){
             formNome.style.borderBottom = "";
         }, 5000)
     }
+    
     //Logica da validação da senha 
     if (formSenha.value.length < 8) {
         resultadoSenha.innerHTML = "Sua senha é muito curta";
