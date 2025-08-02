@@ -43,9 +43,17 @@ form.addEventListener("submit", function(event){
     }else if (formSenha.value.length > 8 && formSenha.value.length <=16) {
         resultadoSenha.innerHTML = "Sua senha está do tamanho rasoavel";
         formSenha.style.borderBottom = "2px solid rgb(255,160,14)";
+        setTimeout(function(){
+            resultadoSenha.innerHTML = "";
+            formSenha.style.borderBottom = "";
+        }, 5000)
     }else{
         resultadoSenha.innerHTML = "Sua senha é forte!";
         formSenha.style.borderBottom = "2px solid rgb(23,255,14)";
+        setTimeout(function(){
+            resultadoSenha.inner = "";
+            formSenha.style.borderBottom = "";
+        }, 5000)
     }
 });
 
