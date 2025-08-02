@@ -18,6 +18,11 @@ form.addEventListener("submit", function(event){
         resultadoNome.innerHTML = "Otimo nome!";
         formNome.style.borderBottom = "2px solid rgb(23,255,14)";
     }
+    //Logica da validação da senha 
+    if (formSenha.value.length < 8) {
+        resultadoSenha.innerHTML = "Sua senha é muito curta";
+        formSenha.style.borderBottom = "2px solid rgb(255,14,14)"
+    }
 });
 
 
