@@ -28,7 +28,7 @@ form.addEventListener("submit", function(event){
         setTimeout(function(){
             resultadoNome.innerHTML = "";
             formNome.style.borderBottom = "";
-        })
+        }, 5000)
     }
     //Logica da validação da senha 
     if (formSenha.value.length < 8) {
