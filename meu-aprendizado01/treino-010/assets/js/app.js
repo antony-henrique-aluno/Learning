@@ -13,10 +13,11 @@ function clique(){
         resultadoNome.innerHTML = "Nome muito pequeno! melhore.";
         formNome.style.borderBottom = "2px solid red";
     }else if (formNome.value.length > 8 && formNome.value.length <= 16) {
-        resultadoSenha.innerHTML = "Quantidade de letras aceitas";
+        resultadoNome.innerHTML = "Quantidade de letras aceitas";
         formNome.style.borderBottom = "2px solid orange";
     }else{
-        
+        resultadoNome.innerHTML = "O nome está forte!";
+        formNome.style.borderBottom = "2px solid rgb(14,255,19)";
     }
 }
 
@@ -26,6 +27,9 @@ function clique(){
         formSenha.style.borderBottom = "2px solid red";
     }else if (formSenha.value.length > 8 && formSenha.value.length <= 16) {
         resultadoSenha.innerHTML = "Senha de tamanho rasoavel";
-        formSenha.style.borderBottom = "2px solid orange"
+        formSenha.style.borderBottom = "2px solid orange";
+    }else{
+        resultadoSenha.innerHTML = "A senha está forte!";
+        formSenha.style.borderBottom = "2px solid rgb(14,255,19)";
     }
 }
