@@ -7,7 +7,7 @@ const img = document.querySelector("#imgMiniatura");
 
 btnConfirme.addEventListener("click", clique);
 function clique(){
-    const valorDigitado = caixaPergunta.value.toLowerCase();
+    const valorDigitado = caixaPergunta.value.toLowerCase().trim();
     if (valorDigitado == "brasil") {
         boxResult.innerHTML = "Deu certo?"
     }else 
