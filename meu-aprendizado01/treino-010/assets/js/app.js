@@ -14,5 +14,18 @@ function clique(){
         formNome.style.borderBottom = "2px solid red";
     }else if (formNome.value.length > 8 && formNome.value.length <= 16) {
         resultadoSenha.innerHTML = "Quantidade de letras aceitas";
+        formNome.style.borderBottom = "2px solid orange";
+    }else{
+        
+    }
+}
+
+function clique(){
+    if (formSenha.value.length < 8) {
+        resultadoSenha.innerHTML = "Senha muito fraca, melhore!";
+        formSenha.style.borderBottom = "2px solid red";
+    }else if (formSenha.value.length > 8 && formSenha.value.length <= 16) {
+        resultadoSenha.innerHTML = "Senha de tamanho rasoavel";
+        formSenha.style.borderBottom = "2px solid orange"
     }
 }
