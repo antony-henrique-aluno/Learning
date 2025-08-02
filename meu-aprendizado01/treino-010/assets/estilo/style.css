@@ -32,7 +32,7 @@ fieldset .boxNome{
 
 fieldset .boxSenha{
     position: absolute;
-    top: 60%; left: 50%;
+    top: 65%; left: 50%;
     transform: translate(-50%, -50%);
 }
 
@@ -53,7 +53,7 @@ fieldset .boxSenha{
 #boxAviso1{
     position: absolute;
     width: 250px;
-    top: 54%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     
@@ -62,7 +62,7 @@ fieldset .boxSenha{
 #boxAviso2{
     position: absolute;
     width: 250px;
-    top: 64%;
+    top: 69%;
     left: 50%;
     transform: translate(-50%, -50%);
     
