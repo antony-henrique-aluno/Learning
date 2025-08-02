@@ -44,3 +44,26 @@ fieldset .boxSenha{
     outline: none;
     border-bottom: 2px solid rgb(2,17,224);
 }
+
+#nome::placeholder, #senha::placeholder{
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+#boxAviso1{
+    position: absolute;
+    width: 250px;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+}
+
+#boxAviso2{
+    position: absolute;
+    width: 250px;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+}
