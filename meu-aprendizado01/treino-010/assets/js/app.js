@@ -13,14 +13,22 @@ form.addEventListener("submit", function(event){
         formNome.style.borderBottom = "2px solid rgb(255,14,14)";
         setTimeout(function(){
             resultadoNome.innerHTML = "";
-            formNome.style.value = "";
+            formNome.style.borderBottom = "";
         }, 5000)
     }else if (formNome.value.length > 8 && formNome.value.length <= 16) {
         resultadoNome.innerHTML = "Seu nome tem uma Quantidade de letras rasoaveis";
         formNome.style.borderBottom = "2px solid rgb(255,160,14)";
+        setTimeout(function(){
+            resultadoNome.innerHTML = "";
+            formNome.style.borderBottom = "";
+        }, 5000)
     }else{
         resultadoNome.innerHTML = "Otimo nome!";
         formNome.style.borderBottom = "2px solid rgb(23,255,14)";
+        setTimeout(function(){
+            resultadoNome.innerHTML = "";
+            formNome.style.borderBottom = "";
+        })
     }
     //Logica da validação da senha 
     if (formSenha.value.length < 8) {
