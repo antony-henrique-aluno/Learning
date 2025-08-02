@@ -25,6 +25,9 @@ form.addEventListener("submit", function(event){
     }else if (formSenha.value.length > 8 && formSenha.value.length <=16) {
         resultadoNome.innerHTML = "Sua senha está do tamanho rasoavel";
         formSenha.style.borderBottom = "2px solid rgb(255,160,14)";
+    }else{
+        resultadoSenha.innerHTML = "Sua senha é forte!";
+        formSenha.style.borderBottom = "2px solid rgb(23,255,14)";
     }
 });
 
