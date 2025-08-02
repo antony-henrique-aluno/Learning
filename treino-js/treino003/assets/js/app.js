@@ -6,13 +6,12 @@ const img = document.querySelector("#imgMiniatura");
 
 
 btnConfirme.addEventListener("click", clique);
-
 function clique(){
     const valorDigitado = caixaPergunta.value.toLowerCase();
     if (valorDigitado == "brasil") {
         boxResult.innerHTML = "Deu certo?"
     }else 
-        boxResult.innerHTML = "Foda"
+        boxResult.innerHTML = "Deu errado?"
         caixaPergunta.style.borderBottom = "2px solid red"
 }
 
