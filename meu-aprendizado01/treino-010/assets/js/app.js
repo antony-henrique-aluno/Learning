@@ -35,6 +35,11 @@ form.addEventListener("submit", function(event){
     if (formSenha.value.length < 8) {
         resultadoSenha.innerHTML = "Sua senha é muito curta";
         formSenha.style.borderBottom = "2px solid rgb(255,14,14)";
+        //Criando a function setTimeout 
+        setTimeout(function(){
+            resultadoSenha.innerHTML = "";
+            formSenha.style.borderBottom = "";
+        }, 5000)
     }else if (formSenha.value.length > 8 && formSenha.value.length <=16) {
         resultadoSenha.innerHTML = "Sua senha está do tamanho rasoavel";
         formSenha.style.borderBottom = "2px solid rgb(255,160,14)";
