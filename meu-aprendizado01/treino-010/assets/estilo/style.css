@@ -56,7 +56,7 @@ fieldset .boxSenha{
     top: 54%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 1px solid black;
+    
 }
 
 #boxAviso2{
@@ -65,5 +65,5 @@ fieldset .boxSenha{
     top: 64%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 1px solid black;
+    
 }
