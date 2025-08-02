@@ -18,5 +18,5 @@ function clique(){
 
 img.addEventListener("click", toquei);
 function toquei(){
-    fundo.style.backgroundImage = img.src;
+    fundo.style.background = "green"
 }
