@@ -35,3 +35,12 @@ fieldset .boxSenha{
     top: 60%; left: 50%;
     transform: translate(-50%, -50%);
 }
+
+#nome, #senha{
+    width: 250px;
+    height: 32px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(2,17,224);
+}
