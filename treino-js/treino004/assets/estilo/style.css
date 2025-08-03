@@ -42,3 +42,12 @@ fieldset #boxBtn{
     top: 65%; right: 60%;
     transform: translate(-50, -50%);
 }
+#boxNome,
+#boxSenha{
+    width: 250px;
+    height: 24px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+}
