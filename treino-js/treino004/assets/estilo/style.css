@@ -6,7 +6,7 @@
 
 main{
     width: 100%;
-    min-height: 100dvh;
+    min-height: 100vh;
     background: linear-gradient(to bottom, rgb(189,202,189), rgb(55,55,55));
     position: relative;
 }
