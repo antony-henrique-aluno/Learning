@@ -20,7 +20,7 @@ form.addEventListener("submit", function(event){
         setTimeout(function(){ //Função anonima
             aviso1.innerHTML = "";
         }, 5000);
-    }else{
+    }else{ 
         aviso1.innerHTML = "Nome forte e exelente";
         setTimeout(function(){
             
