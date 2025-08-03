@@ -66,9 +66,12 @@ fieldset #boxBtn{
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    transition: 500ms;
 }
 
-
+#btn:hover{
+    transform: scale(1.1);
+}
 
 #btn::after{
     content: "";
@@ -76,14 +79,14 @@ fieldset #boxBtn{
     width: 100%; background-color: black;
     height: 100%;
     top: 0;
-    left: -60px;
+    left: -100px;
     box-shadow: -7px -7px 8px black;
     transform: rotate(140deg);
     transition: 500ms;
 }
 
 #btn:hover::after{
-    left: 60px;
+    left: 100px;
     transform: rotate(140deg);
     box-shadow: 7px 7px 8px black;
 }
