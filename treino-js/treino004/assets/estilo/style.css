@@ -60,22 +60,30 @@ fieldset #boxBtn{
 
 #btn{
     position: relative;
-    width: 100px; height: 24px;
+    width: 100px; height: 32px;
     color: black; font-weight: bolder;
     border: none;
+    border-radius: 8px;
     overflow: hidden;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
 }
+
+
 
 #btn::after{
     content: "";
     position: absolute; display: block;
     width: 100%; background-color: black;
-    height: 350%;
+    height: 100%;
     top: 0;
-    left: -90px;
+    left: -60px;
+    box-shadow: -7px -7px 8px black;
     transform: rotate(140deg);
+    transition: 500ms;
 }
 
-#btn::after:hover{
-    left: 90px;
+#btn:hover::after{
+    left: 60px;
+    transform: rotate(140deg);
+    box-shadow: 7px 7px 8px black;
 }
