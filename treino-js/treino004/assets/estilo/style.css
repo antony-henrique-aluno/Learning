@@ -71,6 +71,8 @@ fieldset #boxBtn{
 
 #btn:hover{
     transform: scale(1.1);
+    box-shadow: 4px 4px 10px rgb(255,255,255),
+    4px 4px 10px rgb(255,255,255);
 }
 
 #btn::after{
