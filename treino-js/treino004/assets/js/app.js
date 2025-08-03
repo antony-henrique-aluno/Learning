@@ -1,4 +1,5 @@
 const form = document.querySelector("#confirm");
+const inputNome = document.querySelector("#nome");
 
 
 
