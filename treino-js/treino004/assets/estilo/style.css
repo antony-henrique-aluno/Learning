@@ -31,12 +31,6 @@ fieldset #boxNome{
     transform: translate(-50%, -50%);
 }
 
-#BoxAviso1{
-    width: 150px;
-    border: 2px red solid;
-    height: 20px;
-}
-
 fieldset #boxSenha{
     position: absolute;
     top: 60%; left: 50%;
