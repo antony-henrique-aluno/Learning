@@ -1,4 +1,4 @@
-const Form = document.querySelector("#confirm");
+const form = document.querySelector("#confirm");
 
 
 
