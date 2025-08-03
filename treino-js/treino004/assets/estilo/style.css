@@ -95,4 +95,28 @@ fieldset #boxBtn{
 
 main form fieldset #BoxRedeSociais{
     position: absolute;
+    top: 75%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    border: 2px solid black;
+}
+
+main form fieldset #BoxRedeSociais ul{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+
+main form fieldset #BoxRedeSociais ul li{ 
+    position: relative;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 0 12px 0 12px;
+}
+
+main form fieldset #BoxRedeSociais ul li a{ 
+    
 }
