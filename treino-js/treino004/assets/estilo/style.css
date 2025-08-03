@@ -3,3 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+main{
+    width: 100%;
+    min-height: 100dvh;
+    background: linear-gradient(to bottom, rgb(189,202,189), rgb(55,55,55));
+}
