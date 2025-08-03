@@ -8,4 +8,11 @@ main{
     width: 100%;
     min-height: 100dvh;
     background: linear-gradient(to bottom, rgb(189,202,189), rgb(55,55,55));
+    position: relative;
+}
+
+main form{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
 }
