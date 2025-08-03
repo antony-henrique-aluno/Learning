@@ -62,11 +62,20 @@ fieldset #boxBtn{
     position: relative;
     width: 100px; height: 24px;
     color: black; font-weight: bolder;
+    border: none;
+    overflow: hidden;
 }
 
 #btn::after{
     content: "";
     position: absolute; display: block;
-    width: 38px; background-color: black;
-    height: 34px;
+    width: 100%; background-color: black;
+    height: 350%;
+    top: 0;
+    left: -90px;
+    transform: rotate(140deg);
+}
+
+#btn::after:hover{
+    left: 90px;
 }
