@@ -36,5 +36,8 @@ form.addEventListener("submit", function(event){
         }, 5000);
     }else{
         aviso2.innerHTML = "Senha exelente e forte";
+        setTimeout(function(){
+            aviso2.innerHTML = "";
+        }, 5000);
     }
 });
