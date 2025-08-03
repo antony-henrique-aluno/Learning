@@ -6,7 +6,7 @@ const aviso2 = document.querySelector("#BoxAviso2");
 
 
 const aviso3 = document.querySelector("#BoxAviso3");
-const icons = document.getElementsByTagName(li);
+const icons = document.getElementsByTagName("li");
 
 
 //Criando o evento
@@ -19,7 +19,7 @@ form.addEventListener("submit", function(event){
         setTimeout(function(){
             aviso1.innerHTML = ""; //Faz o valor voltar ao vazio
         }, 5000);
-    }else if (inputNome > 8 && inputNome <= 16) {
+    }else if (inputNome.value.length > 8 && inputNome.value.length <= 16) {
         aviso1.innerHTML = "Nome quase perfeito";
         setTimeout(function(){ //Função anonima
             aviso1.innerHTML = "";
@@ -37,7 +37,7 @@ form.addEventListener("submit", function(event){
         setTimeout(function(){
             aviso2.innerHTML = "";
         }, 5000);
-    }else if (inputSenha > 8 && inputSenha <= 16) {
+    }else if (inputSenha.value.length > 8 && inputSenha.value.length <= 16) {
         aviso2.innerHTML = "Senha quase perfeita";
         setTimeout(function(){
             aviso2.innerHTML = "";
