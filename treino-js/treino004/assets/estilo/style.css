@@ -92,3 +92,7 @@ fieldset #boxBtn{
     transform: rotate(140deg);
     box-shadow: 7px 7px 8px black;
 }
+
+main form fieldset #BoxRedeSociais{
+    position: absolute;
+}
