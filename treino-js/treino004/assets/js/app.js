@@ -15,9 +15,14 @@ form.addEventListener("submit", function(event){
         }, 5000)
     }else if (inputNome > 8 && inputNome <= 16) {
         aviso1.innerHTML = "Senha quase perfeita";
-        setTimeout(function(){
+        setTimeout(function(){ //Função anonima
             aviso1.innerHTML = "";
-        })
+        }, 5000)
+    }else{
+        aviso1.innerHTML = "Senha forte e exelente"
+        setTimeout(function(){
+            
+        }, 5000)
     }
     if (inputSenha.value.length < 8) {
         aviso2.innerHTML = "Senha muito curta";
