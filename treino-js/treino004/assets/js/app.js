@@ -8,8 +8,16 @@ const aviso2 = document.querySelector("#BoxAviso2");
 //Criando o evento
 form.addEventListener("submit", function(event){
     event.preventDefault();
-    if (inputNome.value.length < 8) {
+    if (inputNome.value.length <= 8) {
         aviso1.innerHTML = "Nome muito curto";
+        setTimeout(function(){
+            aviso1.innerHTML = "" //Faz o valor voltar ao vazio
+        }, 5000)
+    }else if (inputNome > 8 && inputNome <= 16) {
+        aviso1.innerHTML = "Senha quase perfeita";
+        setTimeout(function(){
+            aviso1.innerHTML = "";
+        })
     }
     if (inputSenha.value.length < 8) {
         aviso2.innerHTML = "Senha muito curta";
