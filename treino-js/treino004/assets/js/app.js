@@ -5,6 +5,10 @@ const aviso1 = document.querySelector("#BoxAviso1");
 const aviso2 = document.querySelector("#BoxAviso2");
 
 
+const aviso3 = document.querySelector("#BoxAviso3");
+const icons = document.getElementsByTagName(li);
+
+
 //Criando o evento
 form.addEventListener("submit", function(event){
     event.preventDefault();
@@ -45,3 +49,9 @@ form.addEventListener("submit", function(event){
         }, 5000);
     }
 });
+
+icons.addEventListener("click", clicado);
+
+function clicado(){
+    aviso3.innerHTML = "Avisado"
+}
