@@ -115,24 +115,47 @@ main form fieldset #BoxRedeSociais ul li{
     border-radius: 50%;
     margin: 0 18px 0 18px;
     overflow: hidden;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+    transition: 500ms;
 }
 
 li:nth-child(1){
     background: rgb(5,233,245);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+li:hover:nth-child(1){
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgb(5,233,245),
+    0px 0px 10px rgb(5, 233, 245);
 }
 
 li:nth-child(2){
     background: rgb(5,114,245);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+li:hover:nth-child(2){
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgb(5,114,245),
+    0px 0px 10px rgb(5,114,245);
 }
 
 li:nth-child(3){
     background: rgb(198,223,253);
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+}
+
+li:hover:nth-child(3){
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px rgb(198,233,253),
+    0px 0px 10px rgb(198,233,253);
+    
 }
 
 main form fieldset #BoxRedeSociais ul li i{ 
     position: absolute; top: 50%; left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 1.6em;
 }
 
 a{
